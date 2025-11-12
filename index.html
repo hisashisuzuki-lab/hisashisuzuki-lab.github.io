@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>用紙サイズ 総合データベース - A判・B判・写真サイズ・封筒サイズ</title>
-    <meta name="description" content="用紙のサイズを総合的にまとめたデータベース。A判、B判、写真サイズ、封筒サイズなど、すべてのサイズ情報を網羅しています。">
-    <meta name="keywords" content="用紙サイズ,A4,B5,写真サイズ,封筒サイズ,L判,サイズ一覧">
-    
-    <!-- Google tag (gtag.js) -->
+    <meta name="description" content="用紙のサイズ情報を網羅した総合データベース。A判、B判、写真サイズ、封筒サイズなど、すべてのサイズ情報を掲載しています。">
+    <meta name="keywords" content="用紙サイズ,A4,B5,写真サイズ,封筒サイズ,Lサイズ,サイズ一覧">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0ESPZMK4P"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -15,61 +13,117 @@
       gtag('js', new Date());
       gtag('config', 'G-P0ESPZMK4P');
     </script>
-    
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: #f9f9f9;
+            line-height: 1.6;
         }
         h1 {
-            color: #333;
-            border-bottom: 3px solid #007bff;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
         }
         .section {
             background: white;
             padding: 20px;
             margin: 20px 0;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        a {
-            color: #007bff;
+        .size-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .size-item {
+            background: #ecf0f1;
+            padding: 12px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .size-item a {
+            color: #2980b9;
             text-decoration: none;
+            font-weight: 500;
         }
-        a:hover {
+        .size-item a:hover {
             text-decoration: underline;
+            color: #3498db;
+        }
+        .intro {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #bdc3c7;
+            color: #7f8c8d;
+            font-size: 12px;
         }
     </style>
 </head>
 <body>
-    <h1>用紙サイズ 総合データベース</h1>
+    <h1>📄 用紙サイズ 総合データベース</h1>
     
-    <div class="section">
-        <h2>ようこそ</h2>
-        <p>このサイトは、用紙に関するすべてのサイズ情報を網羅したデータベースです。</p>
+    <div class="section intro">
+        <p>このサイトは、用紙に関するすべてのサイズ情報を網羅したデータベースです。A判、B判、写真サイズ、封筒サイズなど、各種サイズの詳細情報を確認できます。</p>
     </div>
 
     <div class="section">
-        <h2>掲載内容</h2>
-        <ul>
-            <li><strong>A判サイズ</strong> - 国際標準規格 (A0〜A10)</li>
-            <li><strong>B判サイズ</strong> - 日本標準規格 (B0〜B12)</li>
-            <li><strong>写真サイズ</strong> - L判、2L判、3×5など</li>
-            <li><strong>封筒サイズ</strong> - 長形、角形、洋形など</li>
-        </ul>
+        <h2>📐 A判サイズ（11種類）</h2>
+        <p>最も一般的な用紙規格。コピー用紙や書類に使用されます。</p>
+        <div class="size-list">
+            <div class="size-item"><a href="content/sizes/a0.md">A0サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a1.md">A1サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a2.md">A2サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a3.md">A3サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a4.md">A4サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a5.md">A5サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a6.md">A6サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a7.md">A7サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a8.md">A8サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a9.md">A9サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/a10.md">A10サイズ</a></div>
+        </div>
     </div>
 
     <div class="section">
-        <h2>現在準備中</h2>
-        <p>詳細なサイズ情報は準備中です。近日公開予定です。</p>
+        <h2>📊 B判サイズ（11種類）</h2>
+        <p>日本で一般的に使用される規格。ノート、雑誌、ポスターに使用されます。</p>
+        <div class="size-list">
+            <div class="size-item"><a href="content/sizes/b0.md">B0サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b1.md">B1サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b2.md">B2サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b3.md">B3サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b4.md">B4サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b5.md">B5サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b6.md">B6サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b7.md">B7サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b8.md">B8サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b9.md">B9サイズ</a></div>
+            <div class="size-item"><a href="content/sizes/b10.md">B10サイズ</a></div>
+        </div>
     </div>
 
-    <div class="section">
-        <small>最終更新: 2025年11月11日</small>
-    </div>
+    <footer>
+        <p>最終更新: 2025年11月12日</p>
+        <p>&copy; 2025 Paper Sizes Database. All rights reserved.</p>
+    </footer>
 </body>
 </html>

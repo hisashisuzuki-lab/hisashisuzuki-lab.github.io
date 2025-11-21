@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>用紙サイズ 総合データベース - A判・B判・写真サイズ・封筒サイズ</title>
-    <meta name="description" content="用紙のサイズ情報を網羅した総合データベース。A判、B判、写真サイズ、封筒サイズなど、すべてのサイズ情報を掲載しています。">
-    <meta name="keywords" content="用紙サイズ,A4,B5,写真サイズ,封筒サイズ,Lサイズ,サイズ一覧">
+    <title>用紙サイズ 総合データベース - 日本・国際規格すべてのサイズ</title>
+    <meta name="description" content="用紙のサイズ情報を網羅した総合データベース。JIS B判・封筒、ISO A判・B判・C判、日本写真サイズ、キャンバスサイズ、インチサイズなど、すべてのサイズ情報を掲載しています。">
+    <meta name="keywords" content="用紙サイズ,A4,B5,JIS,ISO,封筒,写真サイズ,キャンバス,用紙規格">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P0ESPZMK4P"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -14,210 +14,397 @@
       gtag('config', 'G-P0ESPZMK4P');
     </script>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 1000px;
+            font-family: 'Segoe UI', 'Noto Sans JP', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
             line-height: 1.6;
+            color: #333;
         }
+        
         h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
+            color: #1a3a52;
+            border-bottom: 4px solid #3498db;
+            padding-bottom: 15px;
             text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            letter-spacing: 1px;
         }
+        
+        .subtitle {
+            text-align: center;
+            color: #555;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        
         h2 {
-            color: #34495e;
-            margin-top: 30px;
-            border-left: 4px solid #3498db;
-            padding-left: 10px;
+            color: #2c3e50;
+            margin-top: 40px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            font-size: 1.8em;
+            margin-bottom: 10px;
         }
+        
+        .category-description {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 15px;
+            padding-left: 15px;
+        }
+        
         .section {
             background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+        
+        .section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        
         .size-list {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 10px;
-            margin: 15px 0;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
         }
+        
         .size-item {
-            background: #ecf0f1;
-            padding: 12px;
-            border-radius: 5px;
+            background: linear-gradient(135deg, #ecf0f1 0%, #e8eef5 100%);
+            padding: 14px;
+            border-radius: 6px;
             border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
-        .size-item a {
-            color: #2980b9;
+        
+        .size-item:hover {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+        
+        .size-item:hover a {
+            color: white;
             text-decoration: none;
-            font-weight: 500;
         }
-        .size-item a:hover {
-            text-decoration: underline;
-            color: #3498db;
+        
+        .size-item a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
         }
+        
         .intro {
-            background: #e8f4f8;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 15px 0;
+            background: linear-gradient(135deg, #e8f4f8 0%, #f0f9ff 100%);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+            margin: 20px 0;
+            font-size: 1.05em;
+            color: #2c5aa0;
         }
+        
+        .intro strong {
+            color: #1a3a52;
+        }
+        
         footer {
             text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #bdc3c7;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #bdc3c7;
             color: #7f8c8d;
-            font-size: 12px;
+            font-size: 0.95em;
+        }
+        
+        .language-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        
+        .language-switcher a {
+            margin: 0 10px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .language-switcher a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <div class="language-switcher">
+        <span style="color: #555;">言語 / Language:</span>
+        <a href="#">日本語</a>
+        <a href="/en/">English</a>
+    </div>
+
     <h1>📄 用紙サイズ 総合データベース</h1>
+    <p class="subtitle">JIS・ISO・インチ規格すべてのサイズ情報を網羅</p>
     
     <div class="section intro">
-        <p>このサイトは、用紙に関するすべてのサイズ情報を網羅したデータベースです。A判、B判、写真サイズ、封筒サイズなど、各種サイズの詳細情報を確認できます。</p>
+        <strong>このサイトについて：</strong>このサイトは、用紙に関するすべてのサイズ情報を網羅したデータベースです。JIS規格（B判・封筒）、ISO規格（A判・B判・C判封筒）、日本写真サイズ、キャンバスサイズ、インチ規格など、各種サイズの詳細情報を確認できます。
     </div>
 
+    <!-- JIS B判 -->
     <div class="section">
-        <h2>📐 A判サイズ（11種類）</h2>
-        <p>最も一般的な用紙規格。コピー用紙や書類に使用されます。</p>
+        <h2>📊 JIS B判サイズ（11種類）</h2>
+        <p class="category-description">日本で一般的に使用される用紙規格。ノート、雑誌、ポスターに使用されます。</p>
         <div class="size-list">
-            <div class="size-item"><a href="content/sizes/a0.md">A0サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a1.md">A1サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a2.md">A2サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a3.md">A3サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a4.md">A4サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a5.md">A5サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a6.md">A6サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a7.md">A7サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a8.md">A8サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a9.md">A9サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/a10.md">A10サイズ</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b0.md">B0</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b1.md">B1</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b2.md">B2</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b3.md">B3</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b4.md">B4</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b5.md">B5</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b6.md">B6</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b7.md">B7</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b8.md">B8</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b9.md">B9</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/b-size/jis-b10.md">B10</a></div>
         </div>
     </div>
 
+    <!-- JIS 封筒 -->
     <div class="section">
-        <h2>📊 B判サイズ（11種類）</h2>
-        <p>日本で一般的に使用される規格。ノート、雑誌、ポスターに使用されます。</p>
+        <h2>✉️ JIS 封筒サイズ（18種類）</h2>
+        <p class="category-description">郵便物、ビジネス書類に使用される日本規格の封筒サイズです。角形（K号）、長形（N号）、洋形（Y号）の3種類があります。</p>
         <div class="size-list">
-            <div class="size-item"><a href="content/sizes/b0.md">B0サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b1.md">B1サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b2.md">B2サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b3.md">B3サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b4.md">B4サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b5.md">B5サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b6.md">B6サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b7.md">B7サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b8.md">B8サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b9.md">B9サイズ</a></div>
-            <div class="size-item"><a href="content/sizes/b10.md">B10サイズ</a></div>
+            <!-- 角形 K号 -->
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k0.md">K0</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k2.md">K2</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k20.md">K20</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k3.md">K3</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k4.md">K4</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k5.md">K5</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k6.md">K6</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k7.md">K7</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_k8.md">K8</a></div>
+            <!-- 長形 N号 -->
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_n2.md">N2</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_n3.md">N3</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_n4.md">N4</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_n40.md">N40</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_n6.md">N6</a></div>
+            <!-- 洋形 Y号 -->
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_y1.md">Y1</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_y2.md">Y2</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_y4.md">Y4</a></div>
+            <div class="size-item"><a href="content/ja/content/jis/envelope/jis-envelope_y6.md">Y6</a></div>
         </div>
     </div>
 
+    <!-- ISO A判 -->
     <div class="section">
-        <h2>📷 写真サイズ（14種類）</h2>
-        <p>写真プリント、展示作品に使用される規格サイズです。</p>
+        <h2>📐 ISO A判サイズ（13種類）</h2>
+        <p class="category-description">国際標準規格（ISO 216）のA判。世界中で広く使用されています。</p>
         <div class="size-list">
-            <div class="size-item"><a href="content/photo-sizes/L.md">L判</a></div>
-            <div class="size-item"><a href="content/photo-sizes/2L.md">2L判</a></div>
-            <div class="size-item"><a href="content/photo-sizes/KG.md">KG</a></div>
-            <div class="size-item"><a href="content/photo-sizes/postcard.md">はがき</a></div>
-            <div class="size-item"><a href="content/photo-sizes/cabinet.md">キャビネ</a></div>
-            <div class="size-item"><a href="content/photo-sizes/eight-cut.md">八つ切り</a></div>
-            <div class="size-item"><a href="content/photo-sizes/six-cut.md">六つ切り</a></div>
-            <div class="size-item"><a href="content/photo-sizes/six-cut-wide.md">六つ切りワイド</a></div>
-            <div class="size-item"><a href="content/photo-sizes/quarter.md">四つ切り</a></div>
-            <div class="size-item"><a href="content/photo-sizes/large-quarter.md">大四つ切り</a></div>
-            <div class="size-item"><a href="content/photo-sizes/half-cut.md">半切り</a></div>
-            <div class="size-item"><a href="content/photo-sizes/A3-extended.md">A3ノビ</a></div>
-            <div class="size-item"><a href="content/photo-sizes/large.md">全紙</a></div>
-            <div class="size-item"><a href="content/photo-sizes/extra-large.md">大全紙</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-4a0.md">4A0</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-2a0.md">2A0</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a0.md">A0</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a1.md">A1</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a2.md">A2</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a3.md">A3</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a4.md">A4</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a5.md">A5</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a6.md">A6</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a7.md">A7</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a8.md">A8</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a9.md">A9</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/a-size/iso-a10.md">A10</a></div>
         </div>
     </div>
-<div class="section">
-        <h2>🎨 キャンバスサイズ（64種類）</h2>
-        <p>油絵、アクリル画、水彩画などに使用される規格サイズです。F号、P号、M号、S号の4種類があります。</p>
+
+    <!-- ISO B判 -->
+    <div class="section">
+        <h2>📊 ISO B判サイズ（11種類）</h2>
+        <p class="category-description">国際標準規格（ISO 216）のB判。ポスター、教材に使用されます。</p>
         <div class="size-list">
-            <!-- F号 -->
-            <div class="size-item"><a href="content/canvas-sizes/F0.md">F0</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F1.md">F1</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F2.md">F2</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F3.md">F3</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F4.md">F4</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F5.md">F5</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F6.md">F6</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F8.md">F8</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F10.md">F10</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F12.md">F12</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F15.md">F15</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F20.md">F20</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F25.md">F25</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F30.md">F30</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F40.md">F40</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/F50.md">F50</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/FsizeSm.md">F SM</a></div>
-            <!-- P号 -->
-            <div class="size-item"><a href="content/canvas-sizes/P1.md">P1</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P2.md">P2</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P3.md">P3</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P4.md">P4</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P5.md">P5</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P6.md">P6</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P8.md">P8</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P10.md">P10</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P12.md">P12</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P15.md">P15</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P20.md">P20</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P25.md">P25</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P30.md">P30</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P40.md">P40</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/P50.md">P50</a></div>
-            <!-- M号 -->
-            <div class="size-item"><a href="content/canvas-sizes/M1.md">M1</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M2.md">M2</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M3.md">M3</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M4.md">M4</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M5.md">M5</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M6.md">M6</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M8.md">M8</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M10.md">M10</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M12.md">M12</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M15.md">M15</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M20.md">M20</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M25.md">M25</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M30.md">M30</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M40.md">M40</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/M50.md">M50</a></div>
-            <!-- S号 -->
-            <div class="size-item"><a href="content/canvas-sizes/S0.md">S0</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S1.md">S1</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S2.md">S2</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S3.md">S3</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S4.md">S4</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S5.md">S5</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S6.md">S6</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S8.md">S8</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S10.md">S10</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S12.md">S12</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S15.md">S15</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S20.md">S20</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S25.md">S25</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S30.md">S30</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S40.md">S40</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/S50.md">S50</a></div>
-            <div class="size-item"><a href="content/canvas-sizes/SsizeSM.md">S SM</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b0.md">B0</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b1.md">B1</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b2.md">B2</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b3.md">B3</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b4.md">B4</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b5.md">B5</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b6.md">B6</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b7.md">B7</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b8.md">B8</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b9.md">B9</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/b-size/iso-b10.md">B10</a></div>
+        </div>
+    </div>
+
+    <!-- ISO C判 封筒 -->
+    <div class="section">
+        <h2>💌 ISO C判 封筒サイズ（11種類）</h2>
+        <p class="category-description">国際標準規格（ISO 269）のC判封筒。A判やB判の用紙を入れるために設計されています。</p>
+        <div class="size-list">
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c0.md">C0</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c1.md">C1</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c2.md">C2</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c3.md">C3</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c4.md">C4</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c5.md">C5</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c6.md">C6</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c7.md">C7</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c8.md">C8</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c9.md">C9</a></div>
+            <div class="size-item"><a href="content/ja/content/iso/envelope/iso-c10.md">C10</a></div>
+        </div>
+    </div>
+
+    <!-- 日本写真サイズ -->
+    <div class="section">
+        <h2>📷 日本写真サイズ（14種類）</h2>
+        <p class="category-description">写真プリント、展示作品に使用される日本規格のサイズです。</p>
+        <div class="size-list">
+            <div class="size-item"><a href="content/ja/content/japan-photo/l-size.md">L判</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/2l.md">2L判</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/kg.md">KG判</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/postcard.md">はがき</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/cabinet.md">キャビネ</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/yatugiri.md">八つ切り</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/mutugiri.md">六つ切り</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/mutugiriplus.md">六つ切りワイド</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/yotugiri.md">四つ切り</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/ooyotugiri.md">大四つ切り</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/hannsetu.md">半切り</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/a3plus.md">A3ノビ</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/zenshi.md">全紙</a></div>
+            <div class="size-item"><a href="content/ja/content/japan-photo/daizen-shi.md">大全紙</a></div>
+        </div>
+    </div>
+
+    <!-- キャンバスサイズ -->
+    <div class="section">
+        <h2>🎨 キャンバスサイズ（68種類）</h2>
+        <p class="category-description">油絵、アクリル画、水彩画などに使用される規格サイズです。F号、P号、M号、S号の4種類があります。</p>
+        
+        <h3 style="color: #2980b9; margin-top: 20px; margin-bottom: 15px;">F号（人物画）</h3>
+        <div class="size-list">
+            <div class="size-item"><a href="content/ja/content/canvas-size/f0.md">F0</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f1.md">F1</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f2.md">F2</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f3.md">F3</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f4.md">F4</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f5.md">F5</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f6.md">F6</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f8.md">F8</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f10.md">F10</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f12.md">F12</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f15.md">F15</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f20.md">F20</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f25.md">F25</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f30.md">F30</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f40.md">F40</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/f50.md">F50</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/fsize-sm.md">F SM</a></div>
+        </div>
+
+        <h3 style="color: #2980b9; margin-top: 20px; margin-bottom: 15px;">P号（風景画）</h3>
+        <div class="size-list">
+            <div class="size-item"><a href="content/ja/content/canvas-size/p1.md">P1</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p2.md">P2</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p3.md">P3</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p4.md">P4</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p5.md">P5</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p6.md">P6</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p8.md">P8</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p10.md">P10</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p12.md">P12</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p15.md">P15</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p20.md">P20</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p25.md">P25</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p30.md">P30</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p40.md">P40</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/p50.md">P50</a></div>
+        </div>
+
+        <h3 style="color: #2980b9; margin-top: 20px; margin-bottom: 15px;">M号（海景画）</h3>
+        <div class="size-list">
+            <div class="size-item"><a href="content/ja/content/canvas-size/m1.md">M1</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m2.md">M2</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m3.md">M3</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m4.md">M4</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m5.md">M5</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m6.md">M6</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m8.md">M8</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m10.md">M10</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m12.md">M12</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m15.md">M15</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m20.md">M20</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m25.md">M25</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m30.md">M30</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m40.md">M40</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/m50.md">M50</a></div>
+        </div>
+
+        <h3 style="color: #2980b9; margin-top: 20px; margin-bottom: 15px;">S号（スクエア）</h3>
+        <div class="size-list">
+            <div class="size-item"><a href="content/ja/content/canvas-size/s0.md">S0</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s1.md">S1</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s2.md">S2</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s3.md">S3</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s4.md">S4</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s5.md">S5</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s6.md">S6</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s8.md">S8</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s10.md">S10</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s12.md">S12</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s15.md">S15</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s20.md">S20</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s25.md">S25</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s30.md">S30</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s40.md">S40</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/s50.md">S50</a></div>
+            <div class="size-item"><a href="content/ja/content/canvas-size/ssizesm.md">S SM</a></div>
+        </div>
+    </div>
+
+    <!-- インチサイズ -->
+    <div class="section">
+        <h2>📏 インチサイズ（13種類）</h2>
+        <p class="category-description">海外で一般的に使用されるインチ規格のサイズです。</p>
+        <div class="size-list">
+            <div class="size-item"><a href="content/ja/content/inch/4x6.md">4×6</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/8x10.md">8×10</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/8x12.md">8×12</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/10x12.md">10×12</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/11x14.md">11×14</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/12x15.md">12×15</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/13x19.md">13×19</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/14x17.md">14×17</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/16x20.md">16×20</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/18x22.md">18×22</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/20x24.md">20×24</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/22x28.md">22×28</a></div>
+            <div class="size-item"><a href="content/ja/content/inch/24x30.md">24×30</a></div>
         </div>
     </div>
 
     <footer>
-        <p>最終更新: 2025年11月14日</p>
+        <p>📊 <strong>掲載規格数</strong>: JIS B判 11個 + JIS 封筒 18個 + ISO A判 13個 + ISO B判 11個 + ISO C判 11個 + 日本写真 14個 + キャンバス 68個 + インチ 13個 = <strong>合計 159種類</strong></p>
+        <p>最終更新: 2025年11月19日</p>
         <p>&copy; 2025 Paper Sizes Database. All rights reserved.</p>
     </footer>
 </body>

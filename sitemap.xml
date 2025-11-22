@@ -1,622 +1,961 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- ホームページ -->
     <url>
         <loc>https://papersizes.jp/</loc>
-        <lastmod>2025-11-14</lastmod>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
-    
-    <!-- A判サイズ -->
+
+    <!-- JIS B判サイズ（11個） -->
     <url>
-        <loc>https://papersizes.jp/content/sizes/a0.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a1.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b1.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a2.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a3.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b3.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a4.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b4.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a5.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b5.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a6.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b6.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a7.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b7.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a8.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b8.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a9.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b9.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/a10.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/b-size/jis-b10.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- B判サイズ -->
+    <!-- JIS 封筒サイズ（18個：K号9個、N号5個、Y号4個） -->
     <url>
-        <loc>https://papersizes.jp/content/sizes/b0.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b1.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b2.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k20.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b3.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k3.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b4.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k4.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b5.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k5.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b6.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k6.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b7.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k7.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b8.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_k8.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b9.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_n2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/sizes/b10.md</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- 写真サイズ -->
-    <url>
-        <loc>https://papersizes.jp/content/photo-sizes/L.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_n3.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/photo-sizes/2L.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_n4.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/photo-sizes/KG.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_n40.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/photo-sizes/postcard.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_n6.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/photo-sizes/cabinet.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_y1.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/photo-sizes/eight-cut.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_y2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/photo-sizes/six-cut.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_y4.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/photo-sizes/six-cut-wide.md</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/photo-sizes/quarter.md</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/photo-sizes/large-quarter.md</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/photo-sizes/half-cut.md</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/photo-sizes/A3-extended.md</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/photo-sizes/large.md</loc>
-        <lastmod>2025-11-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/photo-sizes/extra-large.md</loc>
-        <lastmod>2025-11-13</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/jis/envelope/jis-envelope_y6.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- キャンバスサイズ F号 -->
+    <!-- ISO A判サイズ（13個） -->
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F0.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-4a0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F1.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-2a0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F2.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F3.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a1.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F4.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F5.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a3.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F6.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a4.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F8.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a5.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F10.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a6.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F12.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a7.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F15.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a8.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F20.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a9.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F25.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F30.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F40.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/F50.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/FsizeSm.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/a-size/iso-a10.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- キャンバスサイズ P号 -->
+    <!-- ISO B判サイズ（11個） -->
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P1.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P2.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b1.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P3.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P4.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b3.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P5.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b4.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P6.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b5.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P8.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b6.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P10.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b7.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P12.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b8.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P15.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b9.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P20.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P25.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P30.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P40.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/P50.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/b-size/iso-b10.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- キャンバスサイズ M号 -->
+    <!-- ISO C判 封筒サイズ（11個） -->
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M1.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M2.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c1.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M3.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M4.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c3.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M5.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c4.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M6.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c5.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M8.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c6.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M10.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c7.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M12.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c8.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M15.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c9.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M20.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M25.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M30.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M40.md</loc>
-        <lastmod>2025-11-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/M50.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/iso/envelope/iso-c10.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- キャンバスサイズ S号 -->
+    <!-- 日本写真サイズ（14個） -->
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S0.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/l-size.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S1.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/2l.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S2.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/kg.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S3.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/postcard.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S4.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/cabinet.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S5.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/yatugiri.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S6.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/mutugiri.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S8.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/mutugiriplus.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S10.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/yotugiri.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S12.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/ooyotugiri.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S15.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/hannsetu.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S20.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/a3plus.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S25.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/zenshi.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S30.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/japan-photo/daizen-shi.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- キャンバスサイズ F号（17個） -->
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f0.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S40.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f1.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/S50.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f2.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://papersizes.jp/content/canvas-sizes/SsizeSM.md</loc>
-        <lastmod>2025-11-14</lastmod>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f3.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f4.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f5.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f6.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f8.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f10.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f12.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f15.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f20.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f25.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f30.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f40.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/f50.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/fsize-sm.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- キャンバスサイズ P号（15個） -->
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p1.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p2.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p3.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p4.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p5.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p6.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p8.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p10.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p12.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p15.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p20.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p25.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p30.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p40.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/p50.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- キャンバスサイズ M号（15個） -->
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m1.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m2.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m3.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m4.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m5.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m6.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m8.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m10.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m12.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m15.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m20.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m25.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m30.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m40.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/m50.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- キャンバスサイズ S号（17個） -->
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s0.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s1.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s2.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s3.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s4.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s5.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s6.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s8.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s10.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s12.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s15.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s20.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s25.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s30.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s40.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/s50.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/canvas-size/ssizesm.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- インチサイズ（13個） -->
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/4x6.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/8x10.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/8x12.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/10x12.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/11x14.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/12x15.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/13x19.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/14x17.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/16x20.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/18x22.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/20x24.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/22x28.md</loc>
+        <lastmod>2025-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://papersizes.jp/content/ja/content/inch/24x30.md</loc>
+        <lastmod>2025-11-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
